@@ -1,0 +1,206 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+header{
+    z-index: 2;
+    width:100%;
+    height: 50px;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+  
+}
+#sudoheader{
+    
+    z-index: 1;
+    width:100%;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+}
+
+#ask{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(38, 38, 38);
+    margin: 10px 270px;
+    margin-top: 20px;
+
+}
+
+#profilebox{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    
+    /* margin-top: px; */
+    overflow: hidden;
+
+}
+ 
+#profilebox>img{
+   height: 100%;
+   width: 100%;
+}
+
+#askbox{
+    border: 1px solid rgb(56, 55, 55);
+    background-color: rgb(32, 32, 32);
+    border-radius:  50px;
+    height: 20px;
+    width:  85%;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+   
+   
+}
+#askbox>p{
+    font-weight: lighter;
+   
+}
+
+.hicon{
+    border: 1px solid transparent;
+    border-radius: 18px;
+    height: 25px;
+    width: 100px;
+    padding: 2px 90px;
+    
+}
+
+.hicon:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+header h1{
+    color: red;
+    padding-left: 200px;
+}
+
+#iconsdiv{
+    display: flex;
+    align-items: center;
+    /* margin-left: -200px; */
+    
+    
+}
+#iconsdiv input{
+    
+   background-image: url(icons/search-24.png.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    padding: 8px 30px;
+    padding-top: 8px;
+   background-color: rgba(24, 24, 24, 0.829);
+   border: 1px solid rgb(68, 68, 68);
+   color: white;
+    
+}
+
+#iconsdiv .icon{
+    margin-right: 30px;
+    
+}
+#quorapps{
+    display: flex;
+    align-items: center;
+}
+
+#tryquo{
+    border: 1px solid rgb(73, 73, 71);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    margin: 20px;
+
+}
+
+#login{
+    
+    margin-right: 10px;
+}             
+
+#signup>a{
+    text-decoration: none;
+    color: black;
+}
+
+#signup:hover{
+   background-color: rgb(7, 7, 122);
+}
+#login>button{
+    font-size: small;
+    background-color: rgb(38, 38, 226);
+    font-weight: 800;
+}
+
+.per{
+    margin-top: 10px;
+    color: white;
+    height: 700px;
+    width: 800px;
+    background-color: rgb(39, 39, 39);
+    /* margin-top: 20px; */
+   margin: 10px 270px;
+   
+}
+.per>.top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(39, 39, 39);
+
+
+}
+#ibox{
+    margin: 5px;
+    /* margin-top: 10px; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#ibox>img{
+    height: 50px;
+    width: 50px;
+}
+
+.mid{
+    padding-left: 20px;
+}
+.bottom{
+    width: 100%;
+    height: 600px;
+    
+}
+.bottom>img{
+    width: 100%;
+    
+    height: 450px;
+}
+
+.up{
+    /* border: 1px solid rgb(7, 7, 7); */
+    border-radius: 20px;
+    background-color: rgb(60, 60, 61);
+    display: flex; 
+    align-items: center;
+    height: 30px;
+    padding: 0px 10px;
+    margin-left:15px;
+   
+}
